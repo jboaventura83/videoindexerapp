@@ -1,0 +1,24 @@
+.dropdown-toggle, .dropdown-item {
+    cursor: pointer;
+}
+
+img {
+    max-height: 40px;
+}
+
+.nav-link {
+    font-size: 1.09375rem;
+    padding-top: 20px;
+}
+
+.navbar-nav {
+    padding-left: 20px;
+}
+
+.navbar-titulo {
+    margin-right: 2rem;
+    font-size: 2.09375rem;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}

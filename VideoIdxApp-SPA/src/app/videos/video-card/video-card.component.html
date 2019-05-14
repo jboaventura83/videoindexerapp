@@ -1,0 +1,15 @@
+<div class="card mb-4">
+  <div class="card-img-wrapper">
+    <img [src]="getTrustedImage()" alt="{{video.name}}" class="card-img-top">
+    <ul class="list-inline member-icons animate text-center">
+      <li class="list-inline-item"><button class="btn btn-primary"
+        [routerLink]="['/videos/', video.id]">Visualizar</button></li>
+    </ul>
+  </div>
+  <div class="card-body p-1">
+    <h5 class="card-tittle text-left mb-1"><i class="fa fa-television"></i>
+      {{video.name}}
+    </h5>
+    <p class="card-text text-muted text center">Status: {{video.state}}</p>
+  </div>
+</div>
